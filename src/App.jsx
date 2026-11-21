@@ -9,6 +9,7 @@ import { Loader2 } from "lucide-react";
 
 import ProtectedRoute from "./components/auth/ProtectedRoute";
 import Layout from "./components/layout/Layout";
+import Policies from "./pages/admin/Policies";
 
 // Lazy-loaded Pages
 const Login = lazy(() => import("./pages/auth/Login"));
@@ -53,6 +54,7 @@ export default function App() {
                 <Route path="/admin/shops" element={<ShopManagement />} />
                 <Route path="/admin/advertisements" element={<Advertisements />} />
                 <Route path="/admin/feedback" element={<Feedback />} />
+                <Route path="/admin/policies" element={<Policies />} />
               </Route>
             </Route>
           </Route>

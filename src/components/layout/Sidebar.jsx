@@ -60,6 +60,11 @@ function Sidebar() {
           href: "/admin/feedback",
           icon: MessageSquare,
         },
+        {
+          name: "Policies",
+          href: "/admin/policies",
+          icon: MessageSquare,
+        },
       ]
       : [
         {
